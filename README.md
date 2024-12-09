@@ -1,10 +1,8 @@
-Here's a draft README for your GitHub repository, based on the provided code and your description of the library:
-
----
-
 # HT1621 Arduino Library
 
 This is a custom Arduino library for interfacing with the HT1621 LCD controller, tailored for complex segmented displays. The library supports rendering numeric and textual information, along with specialized markers and symbols, on custom boards like the one shown in the provided image.
+
+![WhatsApp Image 2024-12-09 at 12 24 44 PM](https://github.com/user-attachments/assets/49e47768-2e3c-4afd-906b-733b32498530)
 
 ## Features
 
@@ -28,6 +26,8 @@ The library includes predefined markers for specific board symbols:
 - **Other Symbols**: `USB`, `CLOCK`, `TREBLE`, `MUTE`, `DELAY`, `MS`
 
 For the full list, see the symbol definitions in the source code.
+
+![screen](https://github.com/user-attachments/assets/d10e18f4-f12f-41cb-bdeb-1a9ba0de5217)
 
 ## Installation
 
