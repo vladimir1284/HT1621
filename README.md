@@ -35,6 +35,31 @@ For the full list, see the symbol definitions in the source code.
 2. Place the folder in your Arduino `libraries` directory.
 3. Restart your Arduino IDE.
 
+## Pinout Information
+
+This project includes the following components and their respective connections to the microcontroller:
+![pinout](https://github.com/user-attachments/assets/b4a892cd-8ed3-4e94-a226-9912a4fe7ff3)
+
+### Buttons
+Matrix keypad as in the figure.
+
+### Infrared (IR) Receiver
+- **IR Signal**: Connected to `IR`
+
+### HT1621 LCD Controller
+- **WR (Write)**: Connected to `P4.1`
+- **Data**: Connected to `P4.2`
+- **CS (Chip Select)**: Connected to `P4.3`
+
+### Power
+- **5V**: Supplies power to the board.
+- **GND**: Ground connection.
+
+**Important Note:**  
+The board's printing **inverts the power pins**. Double-check connections using electrolitic capacitors as ground true, before powering up the system to avoid damage.
+![board](https://github.com/user-attachments/assets/79b53761-ee65-48f4-bd4e-3224410f44fd)
+
+
 ## Usage
 
 ### Basic Setup
@@ -91,7 +116,3 @@ This library is distributed under the MIT License. See [LICENSE](LICENSE) for mo
 ## Contributions
 
 Feel free to contribute to this project by submitting issues or pull requests. Whether it's enhancing functionality or providing new examples, all contributions are welcome!
-
----
-
-Let me know if you'd like to include anything else, such as an example image of the hardware in use or more advanced usage examples.
